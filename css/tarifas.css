@@ -1,0 +1,82 @@
+*{
+	border:0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color:rgb(212, 205, 205);
+}
+h1{
+    text-align: center;
+    background-color:  rgb(223, 179, 150);
+    font-size: 60px;
+    margin: 20px;
+    text-shadow: 5px 5px 5px snow;
+}
+header nav{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgba(255, 236, 174, 0.678);
+    border: 5px solid rgb(32, 43, 105);
+    border-radius: 30%;
+}
+.servicios{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.servicios article{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 530px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+p{
+    text-align: justify;
+    border: solid rgb(56, 55, 56);
+    font-size: 25px;
+
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+
+div img{
+    width: 80px;
+}
+.pagos{
+    text-align: center;
+    margin: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+    h1{
+        width: 100%;
+        font-size: 100px;
+        display: inline;
+        text-align: center;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav{
+        width: 100%;
+    }
+    }

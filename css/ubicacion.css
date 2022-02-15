@@ -1,0 +1,58 @@
+*{
+	border:0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: rgb(212, 205, 205);
+}
+h1{
+    text-align: center;
+    background-color:  rgb(223, 179, 150);
+    font-size: 60px;
+    margin: 20px;
+    text-shadow: 5px 5px 5px snow;
+}
+header p{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+}
+header nav{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+main{
+    text-align: center;
+}
+
+
+main iframe{
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+}
+article section h5{
+    font-size: 40px;
+}
+header nav{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgba(255, 236, 174, 0.678);
+    border: 5px solid rgb(32, 43, 105);
+    border-radius: 30%;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}
